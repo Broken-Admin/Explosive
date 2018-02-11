@@ -11,7 +11,7 @@ class explosive{
     void init(std::string bombNick){
         bombName=bombNick;
     }
-    void countDown(int timer){
+    void countDown(int timer=10){
         printf("The ");
         std::cout<<bombName; // Because printf decides to break if you try to use %s and a string, I used std::cout to output it.
         printf(" seems to have %i seconds left on the timer.\n", timer) ;
