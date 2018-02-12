@@ -8,7 +8,7 @@ std::chrono::seconds sleep(1);
 class explosive{
     public:
     std::string bombName;
-    void init(std::string bombNick){
+    void init(std::string bombNick="timed explosive"){
         bombName=bombNick;
     }
     void countDown(int timer=10){
